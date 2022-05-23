@@ -45,7 +45,9 @@ Select the correct MCU in the upper right corner window. For Arduino Pro Micro i
 After that you need to
 
 > upload the hex file
+
 > restart the keyboard via pin
+
 > click flash.
 
 Please check your antivirus and open the program in admin mode if you have any problems flashing your hex file.
