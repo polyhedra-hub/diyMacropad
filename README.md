@@ -30,7 +30,7 @@ qmk new-keyboard
 qmk compile -kb <keyboard> -km default
 ```
 
-For flashing the keyboard I suggest using QMK Toolbox, as it downloads all the necessery drivers.
+For flashing the keyboard I suggest using QMK Toolbox, as it downloads all the necessary drivers.
 
 You just need to go to
 
