@@ -22,6 +22,8 @@ When importing this folder into qmk_firmware repo make sure that the folder name
 
 ## For Windows Users
 
+Making and compiling your QMK code can be done with the [QMK MSYS](https://msys.qmk.fm/) CLI.
+
 the steps for making the new repository are:
 
 ```
@@ -30,7 +32,7 @@ qmk new-keyboard
 qmk compile -kb <keyboard> -km default
 ```
 
-For flashing the keyboard I suggest using QMK Toolbox, as it downloads all the necessary drivers.
+For flashing the keyboard I suggest using [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases), as it downloads all the necessary drivers.
 
 You just need to go to
 
