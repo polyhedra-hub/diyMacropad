@@ -19,3 +19,36 @@ Flashing example for this keyboard:
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 When importing this folder into qmk_firmware repo make sure that the folder name is diymacropad.
+
+## For Windows Users
+
+the steps for making the new repository are:
+
+```
+qmk setup
+qmk new-keyboard
+qmk compile -kb <keyboard> -km default
+```
+
+For flashing the keyboard I suggest using QMK Toolbox, as it downloads all the necessery drivers.
+
+You just need to go to
+
+> Tools
+
+> Install Drivers
+
+Restart your machine before proceeding to the next step
+
+Select the correct MCU in the upper right corner window. For Arduino Pro Micro it is atmel32u4.
+
+After that you need to
+
+> upload the hex file
+> restart the keyboard via pin
+> click flash.
+
+Please check your antivirus and open the program in admin mode if you have any problems flashing your hex file.
+
+Cheers and
+Happy hacking :feelsgood:
