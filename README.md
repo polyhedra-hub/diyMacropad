@@ -1,6 +1,6 @@
 # DIY Macropad
 
-![DIY Macropad Image](https://imgur.com/a/TFuBUZL)
+![DIY Macropad Image](https://i.imgur.com/39OGKpb.jpg)
 
 _A short description of the keyboard/project_
 
